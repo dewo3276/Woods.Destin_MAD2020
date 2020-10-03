@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1C7E3F1251C5749003CF9E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C7E3F0251C5749003CF9E4 /* AppDelegate.swift */; };
+		C1C7E3F3251C5749003CF9E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C7E3F2251C5749003CF9E4 /* SceneDelegate.swift */; };
+		C1C7E3F5251C5749003CF9E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C7E3F4251C5749003CF9E4 /* ViewController.swift */; };
+		C1C7E3F8251C5749003CF9E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C7E3F6251C5749003CF9E4 /* Main.storyboard */; };
+		C1C7E3FB251C5749003CF9E4 /* Kitten_has_burger_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1C7E3F9251C5749003CF9E4 /* Kitten_has_burger_.xcdatamodeld */; };
+		C1C7E3FD251C574B003CF9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C7E3FC251C574B003CF9E4 /* Assets.xcassets */; };
+		C1C7E400251C574B003CF9E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C7E3FE251C574B003CF9E4 /* LaunchScreen.storyboard */; };
+		C1C7E40B251C574B003CF9E4 /* Kitten_has_burger_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C7E40A251C574B003CF9E4 /* Kitten_has_burger_Tests.swift */; };
+		C1C7E416251C574B003CF9E4 /* Kitten_has_burger_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C7E415251C574B003CF9E4 /* Kitten_has_burger_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1C7E407251C574B003CF9E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C7E3E5251C5749003CF9E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C7E3EC251C5749003CF9E4;
+			remoteInfo = "Kitten has burger?";
+		};
+		C1C7E412251C574B003CF9E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C7E3E5251C5749003CF9E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C7E3EC251C5749003CF9E4;
+			remoteInfo = "Kitten has burger?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1C7E3ED251C5749003CF9E4 /* Kitten has burger?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitten has burger?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C7E3F0251C5749003CF9E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1C7E3F2251C5749003CF9E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C1C7E3F4251C5749003CF9E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1C7E3F7251C5749003CF9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1C7E3FA251C5749003CF9E4 /* Kitten_has_burger_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kitten_has_burger_.xcdatamodel; sourceTree = "<group>"; };
+		C1C7E3FC251C574B003CF9E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1C7E3FF251C574B003CF9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1C7E401251C574B003CF9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C7E406251C574B003CF9E4 /* Kitten has burger?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kitten has burger?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C7E40A251C574B003CF9E4 /* Kitten_has_burger_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitten_has_burger_Tests.swift; sourceTree = "<group>"; };
+		C1C7E40C251C574B003CF9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C7E411251C574B003CF9E4 /* Kitten has burger?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kitten has burger?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C7E415251C574B003CF9E4 /* Kitten_has_burger_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitten_has_burger_UITests.swift; sourceTree = "<group>"; };
+		C1C7E417251C574B003CF9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1C7E3EA251C5749003CF9E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C7E403251C574B003CF9E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C7E40E251C574B003CF9E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1C7E3E4251C5749003CF9E4 = {
+			isa = PBXGroup;
+			children = (
+				C1C7E3EF251C5749003CF9E4 /* Kitten has burger? */,
+				C1C7E409251C574B003CF9E4 /* Kitten has burger?Tests */,
+				C1C7E414251C574B003CF9E4 /* Kitten has burger?UITests */,
+				C1C7E3EE251C5749003CF9E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1C7E3EE251C5749003CF9E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1C7E3ED251C5749003CF9E4 /* Kitten has burger?.app */,
+				C1C7E406251C574B003CF9E4 /* Kitten has burger?Tests.xctest */,
+				C1C7E411251C574B003CF9E4 /* Kitten has burger?UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1C7E3EF251C5749003CF9E4 /* Kitten has burger? */ = {
+			isa = PBXGroup;
+			children = (
+				C1C7E3F0251C5749003CF9E4 /* AppDelegate.swift */,
+				C1C7E3F2251C5749003CF9E4 /* SceneDelegate.swift */,
+				C1C7E3F4251C5749003CF9E4 /* ViewController.swift */,
+				C1C7E3F6251C5749003CF9E4 /* Main.storyboard */,
+				C1C7E3FC251C574B003CF9E4 /* Assets.xcassets */,
+				C1C7E3FE251C574B003CF9E4 /* LaunchScreen.storyboard */,
+				C1C7E401251C574B003CF9E4 /* Info.plist */,
+				C1C7E3F9251C5749003CF9E4 /* Kitten_has_burger_.xcdatamodeld */,
+			);
+			path = "Kitten has burger?";
+			sourceTree = "<group>";
+		};
+		C1C7E409251C574B003CF9E4 /* Kitten has burger?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C7E40A251C574B003CF9E4 /* Kitten_has_burger_Tests.swift */,
+				C1C7E40C251C574B003CF9E4 /* Info.plist */,
+			);
+			path = "Kitten has burger?Tests";
+			sourceTree = "<group>";
+		};
+		C1C7E414251C574B003CF9E4 /* Kitten has burger?UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C7E415251C574B003CF9E4 /* Kitten_has_burger_UITests.swift */,
+				C1C7E417251C574B003CF9E4 /* Info.plist */,
+			);
+			path = "Kitten has burger?UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1C7E3EC251C5749003CF9E4 /* Kitten has burger? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C7E41A251C574B003CF9E4 /* Build configuration list for PBXNativeTarget "Kitten has burger?" */;
+			buildPhases = (
+				C1C7E3E9251C5749003CF9E4 /* Sources */,
+				C1C7E3EA251C5749003CF9E4 /* Frameworks */,
+				C1C7E3EB251C5749003CF9E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kitten has burger?";
+			productName = "Kitten has burger?";
+			productReference = C1C7E3ED251C5749003CF9E4 /* Kitten has burger?.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1C7E405251C574B003CF9E4 /* Kitten has burger?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C7E41D251C574B003CF9E4 /* Build configuration list for PBXNativeTarget "Kitten has burger?Tests" */;
+			buildPhases = (
+				C1C7E402251C574B003CF9E4 /* Sources */,
+				C1C7E403251C574B003CF9E4 /* Frameworks */,
+				C1C7E404251C574B003CF9E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C7E408251C574B003CF9E4 /* PBXTargetDependency */,
+			);
+			name = "Kitten has burger?Tests";
+			productName = "Kitten has burger?Tests";
+			productReference = C1C7E406251C574B003CF9E4 /* Kitten has burger?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1C7E410251C574B003CF9E4 /* Kitten has burger?UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C7E420251C574B003CF9E4 /* Build configuration list for PBXNativeTarget "Kitten has burger?UITests" */;
+			buildPhases = (
+				C1C7E40D251C574B003CF9E4 /* Sources */,
+				C1C7E40E251C574B003CF9E4 /* Frameworks */,
+				C1C7E40F251C574B003CF9E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C7E413251C574B003CF9E4 /* PBXTargetDependency */,
+			);
+			name = "Kitten has burger?UITests";
+			productName = "Kitten has burger?UITests";
+			productReference = C1C7E411251C574B003CF9E4 /* Kitten has burger?UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1C7E3E5251C5749003CF9E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Destin Woods";
+				TargetAttributes = {
+					C1C7E3EC251C5749003CF9E4 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					C1C7E405251C574B003CF9E4 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = C1C7E3EC251C5749003CF9E4;
+					};
+					C1C7E410251C574B003CF9E4 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = C1C7E3EC251C5749003CF9E4;
+					};
+				};
+			};
+			buildConfigurationList = C1C7E3E8251C5749003CF9E4 /* Build configuration list for PBXProject "Kitten has burger?" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1C7E3E4251C5749003CF9E4;
+			productRefGroup = C1C7E3EE251C5749003CF9E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1C7E3EC251C5749003CF9E4 /* Kitten has burger? */,
+				C1C7E405251C574B003CF9E4 /* Kitten has burger?Tests */,
+				C1C7E410251C574B003CF9E4 /* Kitten has burger?UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1C7E3EB251C5749003CF9E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C7E400251C574B003CF9E4 /* LaunchScreen.storyboard in Resources */,
+				C1C7E3FD251C574B003CF9E4 /* Assets.xcassets in Resources */,
+				C1C7E3F8251C5749003CF9E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C7E404251C574B003CF9E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C7E40F251C574B003CF9E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1C7E3E9251C5749003CF9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C7E3F5251C5749003CF9E4 /* ViewController.swift in Sources */,
+				C1C7E3F1251C5749003CF9E4 /* AppDelegate.swift in Sources */,
+				C1C7E3FB251C5749003CF9E4 /* Kitten_has_burger_.xcdatamodeld in Sources */,
+				C1C7E3F3251C5749003CF9E4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C7E402251C574B003CF9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C7E40B251C574B003CF9E4 /* Kitten_has_burger_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C7E40D251C574B003CF9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C7E416251C574B003CF9E4 /* Kitten_has_burger_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1C7E408251C574B003CF9E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C7E3EC251C5749003CF9E4 /* Kitten has burger? */;
+			targetProxy = C1C7E407251C574B003CF9E4 /* PBXContainerItemProxy */;
+		};
+		C1C7E413251C574B003CF9E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C7E3EC251C5749003CF9E4 /* Kitten has burger? */;
+			targetProxy = C1C7E412251C574B003CF9E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1C7E3F6251C5749003CF9E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C7E3F7251C5749003CF9E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1C7E3FE251C574B003CF9E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C7E3FF251C574B003CF9E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1C7E418251C574B003CF9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1C7E419251C574B003CF9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1C7E41B251C574B003CF9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN2W828U2Y;
+				INFOPLIST_FILE = "Kitten has burger?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.colorado.Destin.Woods.Kitten-has-burger-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1C7E41C251C574B003CF9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN2W828U2Y;
+				INFOPLIST_FILE = "Kitten has burger?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.colorado.Destin.Woods.Kitten-has-burger-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1C7E41E251C574B003CF9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN2W828U2Y;
+				INFOPLIST_FILE = "Kitten has burger?Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.colorado.Destin.Woods.Kitten-has-burger-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitten has burger?.app/Kitten has burger?";
+			};
+			name = Debug;
+		};
+		C1C7E41F251C574B003CF9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN2W828U2Y;
+				INFOPLIST_FILE = "Kitten has burger?Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.colorado.Destin.Woods.Kitten-has-burger-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitten has burger?.app/Kitten has burger?";
+			};
+			name = Release;
+		};
+		C1C7E421251C574B003CF9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN2W828U2Y;
+				INFOPLIST_FILE = "Kitten has burger?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.colorado.Destin.Woods.Kitten-has-burger-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kitten has burger?";
+			};
+			name = Debug;
+		};
+		C1C7E422251C574B003CF9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN2W828U2Y;
+				INFOPLIST_FILE = "Kitten has burger?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.colorado.Destin.Woods.Kitten-has-burger-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kitten has burger?";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1C7E3E8251C5749003CF9E4 /* Build configuration list for PBXProject "Kitten has burger?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C7E418251C574B003CF9E4 /* Debug */,
+				C1C7E419251C574B003CF9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C7E41A251C574B003CF9E4 /* Build configuration list for PBXNativeTarget "Kitten has burger?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C7E41B251C574B003CF9E4 /* Debug */,
+				C1C7E41C251C574B003CF9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C7E41D251C574B003CF9E4 /* Build configuration list for PBXNativeTarget "Kitten has burger?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C7E41E251C574B003CF9E4 /* Debug */,
+				C1C7E41F251C574B003CF9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C7E420251C574B003CF9E4 /* Build configuration list for PBXNativeTarget "Kitten has burger?UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C7E421251C574B003CF9E4 /* Debug */,
+				C1C7E422251C574B003CF9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C1C7E3F9251C5749003CF9E4 /* Kitten_has_burger_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C1C7E3FA251C5749003CF9E4 /* Kitten_has_burger_.xcdatamodel */,
+			);
+			currentVersion = C1C7E3FA251C5749003CF9E4 /* Kitten_has_burger_.xcdatamodel */;
+			path = Kitten_has_burger_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C1C7E3E5251C5749003CF9E4 /* Project object */;
+}
