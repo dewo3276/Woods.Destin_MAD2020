@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Activity motivator</string>
+    <string name="buttonText">Motivate me!</string>
+    <string name="hint">Name</string>
+    <string name="hintActivity">Activity or task to do</string>
+    <string name="instructions">Type in your name and your activity that needs motivation</string>
+</resources>
