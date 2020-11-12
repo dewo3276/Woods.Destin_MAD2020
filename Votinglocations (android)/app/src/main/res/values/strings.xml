@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Voting locations</string>
+    <string name="VoteText">Who are you voting for?</string>
+    <string name="parties1">Democrat</string>
+    <string name="parties2">Repbulican</string>
+    <string name="parties3">Independant</string>
+    <string name="appInstructions">Do your civic duty and vote!</string>
+    <string name="issuesToVoteOn">what issues will you be voting on?</string>
+    <string name="greyWolves">Grey Wolves</string>
+    <string name="tax">Nicotine Tax</string>
+    <string name="votingRestrictions">Popular Vote</string>
+    <string name="pollingLocation">Please choose a polling location</string>
+    <string name="mail">Mail in ballot</string>
+    <string name="takeNote">Find a polling location</string>
+    <string-array name="locations">
+        <item>CU University Memorial Center</item>
+        <item>Boulder Medows</item>
+        <item>Boulder Public Library</item>
+    </string-array>
+</resources>
