@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/coin38"
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/wormhole19"
+        app:layout_constraintEnd_toStartOf="@+id/coin35"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/coin33"
+        app:srcCompat="@drawable/zurge_coin"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/coin37"
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/wormhole18"
+        app:layout_constraintEnd_toStartOf="@+id/coin34"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/zurge_coin"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/coin40"
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/wormhole21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/coin35"
+        app:srcCompat="@drawable/zurge_coin"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/coin39"
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/wormhole21"
+        app:layout_constraintEnd_toStartOf="@+id/coin36"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/coin34"
+        app:srcCompat="@drawable/zurge_coin"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole21"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/coin35"
+        app:layout_constraintEnd_toStartOf="@+id/wormhole22"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wormhole20"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole18"
+        android:layout_width="59dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/coin33"
+        app:layout_constraintEnd_toStartOf="@+id/wormhole19"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole19"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/coin33"
+        app:layout_constraintEnd_toStartOf="@+id/wormhole20"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wormhole18"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole20"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/coin35"
+        app:layout_constraintEnd_toStartOf="@+id/wormhole21"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wormhole19"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole22"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/coin36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wormhole21"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/coin35"
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/wormhole15"
+        app:layout_constraintEnd_toStartOf="@+id/coin36"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/coin34"
+        app:srcCompat="@drawable/zurge_coin"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/coin33"
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/wormhole13"
+        app:layout_constraintEnd_toStartOf="@+id/coin34"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/zurge_coin"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/coin34"
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/wormhole15"
+        app:layout_constraintEnd_toStartOf="@+id/coin35"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/coin33"
+        app:srcCompat="@drawable/zurge_coin"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/coin36"
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/wormhole17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/coin35"
+        app:srcCompat="@drawable/zurge_coin"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole15"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/coin30"
+        app:layout_constraintEnd_toStartOf="@+id/wormhole16"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wormhole14"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole13"
+        android:layout_width="59dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/coin29"
+        app:layout_constraintEnd_toStartOf="@+id/wormhole14"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole14"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/coin30"
+        app:layout_constraintEnd_toStartOf="@+id/wormhole15"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wormhole13"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole17"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/coin32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wormhole16"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole16"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/coin32"
+        app:layout_constraintEnd_toStartOf="@+id/wormhole17"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wormhole15"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/coin30"
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/wormhole10"
+        app:layout_constraintEnd_toStartOf="@+id/coin31"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/coin29"
+        app:srcCompat="@drawable/zurge_coin"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/coin29"
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/wormhole8"
+        app:layout_constraintEnd_toStartOf="@+id/coin30"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/zurge_coin"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/coin32"
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/wormhole12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/coin31"
+        app:srcCompat="@drawable/zurge_coin"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/coin31"
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/wormhole10"
+        app:layout_constraintEnd_toStartOf="@+id/coin32"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/coin30"
+        app:srcCompat="@drawable/zurge_coin"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole10"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/coin26"
+        app:layout_constraintEnd_toStartOf="@+id/wormhole11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wormhole9"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole8"
+        android:layout_width="59dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/coin1"
+        app:layout_constraintEnd_toStartOf="@+id/wormhole9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole9"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/coin1"
+        app:layout_constraintEnd_toStartOf="@+id/wormhole10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wormhole8"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole12"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/coin28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wormhole11"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole11"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/coin27"
+        app:layout_constraintEnd_toStartOf="@+id/wormhole12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wormhole10"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/levelCounter"
+        android:layout_width="145dp"
+        android:layout_height="28dp"
+        android:fontFamily="@font/spacehorizon_regular"
+        android:text="@string/levelIndicator"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/coinCounter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/spacehorizon_regular"
+        android:text="@string/coinIndicator"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startButton" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/spacehorizon_regular"
+        android:onClick="startStop"
+        android:text="@string/startButtonstring"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/spaceShip"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coinCounter"
+        app:srcCompat="@drawable/spacedude" />
+
+    <ImageView
+        android:id="@+id/coin1"
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/wormhole4"
+        app:layout_constraintEnd_toStartOf="@+id/coin26"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/zurge_coin"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/coin26"
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/wormhole4"
+        app:layout_constraintEnd_toStartOf="@+id/coin27"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/coin1"
+        app:srcCompat="@drawable/zurge_coin"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/coin27"
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/wormhole5"
+        app:layout_constraintEnd_toStartOf="@+id/coin28"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/coin26"
+        app:srcCompat="@drawable/zurge_coin"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/coin28"
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/wormhole1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/coin27"
+        app:srcCompat="@drawable/zurge_coin"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="1dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wormhole6"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="1dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/wormhole5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wormhole7"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="1dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/wormhole6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wormhole4"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="1dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/wormhole1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wormhole5"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/wormhole7"
+        android:layout_width="59dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="1dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/wormhole4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/worm_hole"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

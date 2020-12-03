@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Zurge Coin</string>
+    <string name="levelIndicator">Level 1</string>
+    <string name="coinIndicator">Coins 0</string>
+    <string name="startButtonstring">Start</string>
+    <string name="pauseButtonstring">pause</string>
+</resources>
